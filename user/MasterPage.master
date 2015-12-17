@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="user_MasterPage" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Book Store Template, Free CSS Template, CSS Website Layout</title>
+<meta name="keywords" content="Book Store Template, Free CSS Template, CSS Website Layout, CSS, HTML" />
+<meta name="description" content="Book Store Template, Free CSS Template, Download CSS Website" />
+<link href="../templatemo_style.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+<!--  Free CSS Templates from www.templatemo.com -->
+<div id="templatemo_container">
+	<div id="templatemo_menu">
+    	
+        <asp:Label ID="Label3" runat="server" Font-Bold="True"></asp:Label>
+    	
+    </div> <!-- end of menu -->
+    
+    <div id="templatemo_header">
+    	
+        
+        
+        
+    </div> <!-- end of header -->
+    
+    <div id="templatemo_content">
+    	
+        <div id="templatemo_content_left">
+        	<div class="templatemo_content_left_section">
+            	<h1>Categories</h1>
+                <ul>
+                    <li><a href="frmpstadv.aspx">Post Advertisement</a></li>
+                    <li> <a href="frmsrcads.aspx">Search Ads</a>
+                    </li><li>
+                    <a href="frmfav.aspx">Favourites</a></li>
+                 <li>
+                    <a href="frmmsg.aspx">Messages</a></li>
+                    
+
+              
+                    
+            	</ul>
+            </div>
+			<div class="templatemo_content_left_section">
+            	<a href="../frmlog.aspx"><h1>SignOut</h1></a>
+            </div>
+            
+            
+        </div> <!-- end of content left -->
+        
+        <div id="templatemo_content_right">
+        	
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <table class="auto-style1">
+                    </table>
+            </asp:ContentPlaceHolder>
+        	
+        </div> <!-- end of content right -->
+    
+    	
+    </div> <!-- end of content -->
+    
+    <div id="templatemo_footer">
+    <asp:Label ID="Label2" runat="server" Font-Bold="True" Text="Current Users :"></asp:Label><br />
+
+	      <asp:Label ID="Label1" runat="server" Font-Bold="True" Text="Total Visitors :"></asp:Label><br />
+            </div> 
+    <!-- end of footer -->
+<!--  Free CSS Template www.templatemo.com -->
+</div> <!-- end of container -->
+<div align=center></div>
+        </form></body>
+</html>
+
+
